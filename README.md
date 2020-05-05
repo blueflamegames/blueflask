@@ -1,4 +1,5 @@
 ## Blueflask
+![Build](https://github.com/rkialashaki/blueflask/workflows/Build/badge.svg?branch=master)
 
 Instructions:
 
