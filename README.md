@@ -1,5 +1,5 @@
 ## Blueflask
-![Build](https://github.com/rkialashaki/blueflask/workflows/Build/badge.svg?branch=master)
+[![Build](https://github.com/rkialashaki/blueflask/workflows/Build/badge.svg?branch=master)](https://github.com/rkialashaki/blueflask/actions)
 
 Instructions:
 
