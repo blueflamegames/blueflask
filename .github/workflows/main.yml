@@ -11,9 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Run pylint
+    - name: Upgrade pip
+      run: |
+        python3 -m pip install --upgrade pip
+    - name: Install python module requirements
       run: |
         pip3 install -r requirements.txt
-        pip3 install setuptools pylint
-        pylint bluflame.py
+    - name: Run Tests
+      run: |
+        pip3 install pylint
+        pylint blueflame.py
         echo "Create tests to run here"
