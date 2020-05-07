@@ -16,9 +16,9 @@ jobs:
         python3 -m pip install --upgrade pip
     - name: Install python module requirements
       run: |
-        pip3 install -r requirements.txt
+        python3 -m pip install -r requirements.txt
     - name: Run Tests
       run: |
-        pip3 install pylint
+        python3 -m pip install pylint
         pylint blueflame.py
         echo "Create tests to run here"
